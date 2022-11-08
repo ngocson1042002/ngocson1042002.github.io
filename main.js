@@ -228,3 +228,8 @@
       render();
     }, 10);
   })(document.getElementById('pinkboard'));
+
+  var x = document.getElementById("myMusic");
+  function playaudio() {
+    x.play();
+  }

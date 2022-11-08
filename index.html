@@ -86,10 +86,16 @@ canvas {
  
  <BODY>
    <div class="box">
-      <canvas id="pinkboard"></canvas>
+      <canvas 
+      id="pinkboard"
+      onclick="playaudio()"
+      onkeydown="playaudio()" 
+      ></canvas>
    </div>
 
-  <audio src="music.mp3" autoplay="true"></audio>
+   <audio id="myMusic">
+    <source src="music.mp3" />
+  </audio>
 
   <script src="main.js"></script>
 
