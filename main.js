@@ -415,3 +415,7 @@ function draw(){
 }
 
 draw();
+var x = document.getElementById("myMusic");
+function playaudio() {
+  x.play();
+}
